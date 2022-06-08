@@ -28,7 +28,7 @@ public class DaysOfTheWeekTest {
         String str4 = monthvalid.MonthValidOrNotValidChecked("10/10/2022");
         assertEquals("10/10/2022", str4);
 
-        String str6 = monthvalid.MonthValidOrNotValidChecked("15/mm/2022");
+        String str6 = monthvalid.MonthValidOrNotValidChecked("15/mm/2022");//return a string
         assertNotEquals("12/10/2022", str6);
 
 
