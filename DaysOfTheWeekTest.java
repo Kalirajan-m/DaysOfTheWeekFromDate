@@ -13,7 +13,7 @@ public class DaysOfTheWeekTest {
     public static void yearValidOrNotValidChecked() {
         DaysOfTheWeek yearvalid = new DaysOfTheWeek();
         System.out.println("------ Year Valid or Not Valid ------\n");
-        String str4 = yearvalid.YearValidOrNotValidChecked("10/10/2022");
+        String str4 = yearvalid.YearValidOrNotValidChecked("10/10/2022");//Return a String 
         assertEquals("10/10/2022", str4);
 
         String str6 = yearvalid.YearValidOrNotValidChecked("15/12/yyyy");
